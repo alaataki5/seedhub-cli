@@ -139,6 +139,10 @@ for item in links.get("quark_resolved", []):
 
 本工具仅供个人学习和研究使用。不托管、不分发、不提供任何版权内容，仅聚合 SeedHub 上公开可访问的链接。请遵守所在地区的法律法规。
 
+## 给 AI Agent 使用
+
+如果你想让 AI Agent（如 OpenClaw、Claude Code 等）使用这个工具，请参考 [SKILL.md](./SKILL.md)，里面包含了 Agent 所需的安装方式、命令格式和使用流程。
+
 ## 开源协议
 
 MIT

